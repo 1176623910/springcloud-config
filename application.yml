@@ -1,14 +1,14 @@
-spring: 
+﻿spring: 
   profiles: 
     active: 
     - dev
 ---
 spring: 
-  profiles: dev  #寮�鍙戠幆澧�
-    application:
+  profiles: dev  #开发环境
+    application: 
       name: springcloud-config-dev
 ---
 spring: 
-  profiles: uat  #娴嬭瘯鐜
+  profiles: uat  #测试环境
     application: 
       name: springcloud-config-uat
