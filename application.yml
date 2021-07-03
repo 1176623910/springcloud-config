@@ -4,8 +4,8 @@
 ---
 spring: 
   profiles: dev #开发
-    application: 
-      name: config-dev
+  application: 
+  name: config-dev
 ---
 spring: 
   profiles: uat
