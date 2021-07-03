@@ -4,11 +4,11 @@ spring:
     - dev
 ---
 spring: 
-  profiles: dev  #开发环境
-    application: 
+  profiles: dev  #寮�鍙戠幆澧�
+    application:
       name: springcloud-config-dev
 ---
 spring: 
-  profiles: uat  #测试环境
+  profiles: uat  #娴嬭瘯鐜
     application: 
       name: springcloud-config-uat
