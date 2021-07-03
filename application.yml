@@ -8,6 +8,6 @@ spring:
   name: config-dev
 ---
 spring: 
-  profiles: uat
+  profiles: uat #测试
   application: 
     name: config-uat
