@@ -9,5 +9,5 @@ spring:
 ---
 spring: 
   profiles: uat
-    application: 
-      name: config-uat
+  application: 
+    name: config-uat
