@@ -17,3 +17,20 @@ eureka:
     fetch-registry: false
     service-url: 
       defaultZone: http://localhost:9001/eureka/
+
+---
+server: 
+  port: 9001
+
+spring: 
+  profiles: uat
+  application: servicecloud-config-eureka-client
+
+eureka: 
+  instance: 
+    hostname: server9001
+  client: 
+    register-with-eureka: false
+    fetch-registry: false
+    service-url: 
+      defaultZone: http://localhost:9001/eureka/
